@@ -47,7 +47,7 @@ button {
     color: #1a2236;
   }
 
-  .para {
+  .paragraph {
     font-family: Poppins, sans-serif;
     font-size: 14px;
     letter-spacing: -0.01em;
@@ -75,5 +75,28 @@ button {
     background-size: contain;
     width: 100%;
     height: 185px;
+  }
+
+  .list {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  .project-container {
+    background: #1a2236;
+    font-family: Poppins, sans-serif;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+
+  .img {
+    margin-top: -2px;
+    width: 100%;
+  }
+
+  .project {
+    display: grid;
   }
 }
