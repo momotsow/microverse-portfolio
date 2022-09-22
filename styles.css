@@ -39,6 +39,10 @@ button {
     padding: 0 16px 0 16px;
   }
 
+  .container {
+    padding: 0 16px 0 16px;
+  }
+
   .headline {
     font-family: Playfair Display, sans-serif;
     font-weight: 400;
@@ -51,6 +55,7 @@ button {
     font-family: Poppins, sans-serif;
     font-size: 14px;
     letter-spacing: -0.01em;
+    padding-right: 25px;
     color: #1a2236;
   }
 
@@ -67,6 +72,31 @@ button {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 32px;
+  }
+
+  .cta {
+    font-family: Poppins, sans-serif;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #1a2236;
+    font-size: 16px;
+    padding: 12px 0 12px 0;
+    color: #fff;
+    border: none;
+  }
+
+  .cta:hover {
+    background: none;
+    border: 1px solid #1a2236;
+    color: #1a2236;
+  }
+
+  .download {
+    margin-left: 20px;
+    width: fit-content;
   }
 
   .header-img2 {
@@ -98,5 +128,143 @@ button {
 
   .project {
     display: grid;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    display: grid;
+  }
+
+  .project-tittle {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    margin: 0;
+    padding: 20px 0 16px 20px;
+  }
+
+  .t2 {
+    margin-left: 16px;
+  }
+
+  .project-link {
+    background: #98dede;
+    border: none;
+    color: #1a2236;
+    font-weight: 300;
+    font-size: 10.3334px;
+    line-height: 80%;
+    padding: 6px 10px 6px 10px;
+    margin: 0 10px 20px 0;
+  }
+
+  .project-skills {
+    padding-left: 20px;
+  }
+
+  .project-button {
+    color: #fff;
+    display: flex;
+    background: none;
+    border: 1px solid #fff;
+    height: 44px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 10px 10px 10px;
+    margin-left: 20px;
+  }
+
+  .projects button span img {
+    padding-left: 12px;
+  }
+
+  .project-button:hover {
+    border: 2px solid #fff;
+  }
+
+  .back-groung {
+    font-family: Poppins, sans-serif;
+    width: 100%;
+    height: 289px;
+  }
+
+  .profile-tittle {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    padding: 50px 0 0 50px;
+  }
+
+  .languages {
+    background: #1c528a;
+  }
+
+  .bg-img {
+    background-image: url("./images/ic_languages.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: inherit;
+    width: 102px;
+    margin-top: -046px;
+    margin-inline-start: auto;
+  }
+
+  .framework {
+    background: #e2505c;
+  }
+
+  .img1 {
+    background-image: url("./images/Group18.png");
+    background-repeat: no-repeat;
+    height: inherit;
+    width: 102px;
+    margin-top: -066px;
+    margin-right: -6px;
+    margin-inline-start: auto;
+  }
+
+  .Skilss {
+    background: #febf52;
+  }
+
+  .bg-img3 {
+    background-image: url("./images/ic_skills.svg");
+    background-repeat: no-repeat;
+    height: 35%;
+    width: 102px;
+    margin-top: -073px;
+    margin-inline-start: auto;
+  }
+
+  .profile-list {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.0525em;
+    color: #fff;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-section {
+    background: #f9f9fa;
+    margin-top: 50px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .para2 {
+    padding: 2px;
   }
 }
