@@ -32,6 +32,42 @@ body {
       nav {
         margin-top: 19px;
       }
+
+      .headline-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px 0 16px;
+      }
+    
+      .headline {
+        font-family: Playfair Display, sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 100%;
+        color: #1a2236;
+      }
+    
+      .para {
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        letter-spacing: -0.01em;
+        color: #1a2236;
+      }
+    
+      .Start-collaboration {
+        font-family: Poppins, sans-serif;
+        background: #1a2236;
+        width: 288px;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+      }
+    
+      .button {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 32px;
+      }
     
     
 }
