@@ -16,11 +16,11 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by the command: 
 
-$ git clone https://github.com/momotsow/hellomicroverse.git
+$ git clone https://github.com/momotsow/microverse-portfolio.git
 
 - Then go to the main folder using the next command:
 
-$ cd Portfolio-setup-and-mobile-version-skeleton.git
+$ cd microverse-portfolio
 
 - Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
 
