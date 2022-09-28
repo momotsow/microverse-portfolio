@@ -274,4 +274,105 @@ button {
   .para2 {
     padding: 2px;
   }
+
+  .float-container {
+    border: solid 1px #dfdfe0;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .float-container input {
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: 0;
+    height: 45px;
+    color: #1a2236;
+    padding-left: 16px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .float-container textarea {
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: 0;
+    color: #1a2236;
+    padding-left: 16px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  ::placeholder {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+  }
+
+  label {
+    position: absolute;
+    transform-origin: top left;
+    transform: translate(0, 16px) scale(1);
+    transition: all 0.1s ease-in-out;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    margin-top: -12px;
+    margin-left: 16px;
+    color: #7d7c84;
+  }
+
+  .float-container.active label {
+    transform: translate(0, 4px) scale(0.75);
+  }
+
+  textarea:focus,
+  textarea:hover,
+  input:focus,
+  input:hover {
+    border: 1px solid #1a2236;
+  }
+
+  .footer-section {
+    background: #1a2236;
+    padding: 0 16px 0 16px;
+  }
+
+  .footer-container {
+    width: 100%;
+  }
+
+  .get-resume {
+    display: flex;
+    padding-top: 15px;
+  }
+
+  .resume-img {
+    margin-left: 15px;
+  }
+
+  .footer-tittle {
+    font-family: Poppins, sans-serif;
+    color: #92dcdc;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 3px 40px 3px;
+  }
+
+  .footer-tittle:hover {
+    font-weight: 600;
+  }
+
+  .social-link:hover {
+    width: 30px;
+  }
 }
