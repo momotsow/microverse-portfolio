@@ -18,6 +18,10 @@ li {
   list-style: none;
 }
 
+a:hover {
+  font-size: 200%;
+}
+
 @media only screen and (min-width: 320px) {
   .mobile-menu {
     border: none;
@@ -116,6 +120,7 @@ li {
     margin-bottom: 32px;
   }
 
+  /* button */
   .cta {
     font-family: Poppins, sans-serif;
     margin-top: 32px;
@@ -244,6 +249,7 @@ li {
     display: none;
   }
 
+  /* button */
   .projects button span img {
     padding-left: 12px;
   }
@@ -443,6 +449,10 @@ li {
   .nav-list {
     display: flex;
     font-family: poppins, sans-serif;
+  }
+
+  a:hover {
+    font-weight: bold;
   }
 
   .list {
@@ -993,6 +1003,7 @@ li {
     grid-auto-rows: minmax(100px, auto);
     justify-items: stretch;
     align-items: stretch;
+    width: 1366px;
   }
 
   .wrap2 {
