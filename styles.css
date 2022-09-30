@@ -18,6 +18,10 @@ li {
   list-style: none;
 }
 
+a:hover {
+  font-size: 200%;
+}
+
 @media only screen and (min-width: 320px) {
   .mobile-menu {
     border: none;
