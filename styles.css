@@ -119,8 +119,9 @@ a:hover {
     margin-top: 40px;
     margin-bottom: 32px;
   }
-/* button */
-  .cta { 
+
+  /* button */
+  .cta {
     font-family: Poppins, sans-serif;
     margin-top: 32px;
     margin-bottom: 40px;
@@ -247,8 +248,8 @@ a:hover {
   .b2 {
     display: none;
   }
-  
-/* button */
+
+  /* button */
   .projects button span img {
     padding-left: 12px;
   }
