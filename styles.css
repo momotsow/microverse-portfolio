@@ -134,6 +134,11 @@ a:hover {
     border: none;
   }
 
+  .cta:hover {
+    background: none;
+    border: 1px solid #1a2236;
+    color: #1a2236;
+  }
 
   .download {
     margin-left: 20px;
@@ -248,6 +253,9 @@ a:hover {
     padding-left: 12px;
   }
 
+  .project-button:hover {
+    border: 2px solid #fff;
+  }
 
   .back-groung {
     font-family: Poppins, sans-serif;
@@ -440,6 +448,10 @@ a:hover {
   .nav-list {
     display: flex;
     font-family: poppins, sans-serif;
+  }
+
+  a:hover {
+    font-weight: bold;
   }
 
   .list {
@@ -990,6 +1002,7 @@ a:hover {
     grid-auto-rows: minmax(100px, auto);
     justify-items: stretch;
     align-items: stretch;
+    width: 1366px;
   }
 
   .wrap2 {
