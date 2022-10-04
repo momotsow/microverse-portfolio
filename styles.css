@@ -19,7 +19,7 @@ li {
 }
 
 a:hover {
-  font-size: 200%;
+  font-size: bold;
 }
 
 @media only screen and (min-width: 320px) {
@@ -551,7 +551,7 @@ a:hover {
 
   .cta {
     width: 254px;
-    height: 70px;
+    height: 55px;
     font-size: 18px;
     margin-top: 59px;
     line-height: 27px;
