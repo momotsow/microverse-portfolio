@@ -592,6 +592,7 @@ a:hover {
   .t2 {
     transform: rotate(270deg);
     padding: 0;
+
     /* margin: 0; */
     margin-left: 252px;
     margin-top: -114px;
@@ -1681,7 +1682,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 1280px) {
   .about-section {
     margin-top: 80px;
   }
