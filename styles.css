@@ -23,102 +23,16 @@ a:hover {
 }
 
 @media only screen and (min-width: 320px) {
-  .msg-label {
-    display: none;
+  .mobile-menu {
+    border: none;
+    background: none;
+    padding: 0;
   }
-
-  .r2 {
-    display: none;
-  }
-
-  .bg-img4 {
-    display: none;
-  }
-
-  .f-img1 {
-    display: none;
-  }
-
-  .f-img2 {
-    display: none;
-  }
-
-  .p-img2 {
-    display: none;
-  }
-
-  .p-img3 {
-    display: none;
-  }
-
-  iframe {
-    width: 100%;
-    height: 300px;
-  }
-
-  .nav-list.menu-btn {
-    display: block;
-  }
-
-  .img-menu-1 {
-    background-image: url("./images/image_geometry_menu_1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 100%;
-    height: 140px;
-    top: 0;
-    z-index: -1;
-  }
-
-  .img-menu-2 {
-    background-image: url("./images/image_geometry_menu_2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 100%;
-    height: 176px;
-    bottom: 0;
-  }
-
 
   .nav-list {
     display: none;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: #fff;
-    height: 100vh;
   }
 
-  
-  .m-list {
-    margin-top: 190px;
-  }
-
-  a.menu-list {
-    color: #1a2236;
-    display: block;
-    padding: 0.5em;
-    font-size: 21px;
-    text-align: center;
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-  }
-
-  a.menu-list:hover {
-    font-weight: 900;
-  }
-
-  .mobile-menu-x {
-    float: right;
-    margin: 20px 20px 20px 20px;
-    cursor: pointer;
-    z-index: 999;
-  }
-  
   .header-img {
     background-image: url("./images/img_geometry_1.png");
     background-repeat: no-repeat;
@@ -535,10 +449,6 @@ a:hover {
   .nav-list {
     display: flex;
     font-family: poppins, sans-serif;
-  }
-
-  .nav-list.menu-btn {
-    display: flex;
   }
 
   a:hover {
@@ -1159,10 +1069,6 @@ a:hover {
   .nav-list {
     display: flex;
     font-family: poppins, sans-serif;
-  }
-
-  .nav-list.menu-btn {
-    display: flex;
   }
 
   .list {
