@@ -13,3 +13,7 @@ if (closeBtn) {
     nav.classList.remove('nav-list-show');
   });
 }
+
+nav.addEventListener('click', () => {
+  nav.classList.remove('nav-list-show');
+});
