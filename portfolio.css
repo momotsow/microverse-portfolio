@@ -124,6 +124,7 @@ body {
   .demo {
     width: 100%;
   }
+
   .active,
   .demo:hover {
     opacity: 1;
@@ -221,6 +222,7 @@ body {
   .mySlides {
     width: 100%;
   }
+
   .title {
     font-size: 60px;
   }
