@@ -7,7 +7,8 @@ For this repository, I've created html templates and styling files in order to b
 ## Built With
 
 - Html
-- Css
+- CSS
+- Javascript
 - Git & Github
 
 ## Live Demo (if available)
