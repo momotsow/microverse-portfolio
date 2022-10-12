@@ -105,6 +105,43 @@ const projects = [
   
   const section = document.querySelector('.main-container');
   //add projects
+  projects.forEach((project) => {
+    const div = document.createElement("div");
+    div.className = "project-card";
+    div.innerHTML = `
+      <h2>${project.title}</h2>
+      <ul>
+          <li>${project.technologyList[0]}</li>
+          <li>${project.technologyList[1]}</li>
+          <li>${project.technologyList[2]}</li>
+      </ul>
+  
+      <div>
+        <img ${project.class} src="${project.image1}" alt="project img">
+      </div>
+        
+      <div>
+        <img src="${project.image5}" onclick="currentSlide(1)" alt="img">
+      </div>
+      <div>
+        <img src="${project.image6}" onclick="currentSlide(2)" alt="img">
+      </div>
+      <div>
+        <img src="${project.image7}" onclick="currentSlide(3)" alt="img">
+      </div>
+      <div>
+        <img src="${project.image8}" onclick="currentSlide(4)" alt="img">
+      </div>
+  
+      <p>${project.description1}</p>
+      <p>${project.description2}</p>
+      <div>
+          <a>${project.firstButton}<img src="./images/ic_link.png" alt="See live"></a>
+          <a>${project.secondButton}<img src="./images/ic_github_blue.png" alt="source-code"></a>
+      </div>
+      `;
+  });
+
   const seeProjectButtons = document.querySelectorAll('.project-button');
   
   seeProjectButtons.forEach((button) => {
