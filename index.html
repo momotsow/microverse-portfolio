@@ -336,16 +336,16 @@
           eiusmod tempor incididunt ut labore et dolore magna.
         </p>
         <form
-          class="form-input"
+          class="form-input" id="form"
           action="https://formspree.io/f/mpzndezj"
-          method="post"
+          method="post" name='contact-form'
         >
           <div class="name-email">
             <div class="float-container fc">
               <label for="name">Your name</label>
               <input
                 type="text"
-                id="name"
+                id="name" class="input"
                 name="name"
                 placeholder="Your name"
                 maxlength="30"
@@ -356,7 +356,7 @@
               <label for="email">Your email</label>
               <input
                 type="email"
-                id="email"
+                id="email" class="input"
                 placeholder="Your email"
                 name="email"
                 required
@@ -370,7 +370,7 @@
             >
             <textarea
               name="message"
-              id="message"
+              id="message" class="input"
               placeholder="Enter your message here"
               cols="30"
               rows="10"
@@ -379,7 +379,11 @@
             >
             </textarea>
           </div>
-          <button type="submit" class="cta get-cv">Start collaboration</button>
+          <div class="small">
+            <small id="alert">* Make sure you fill your email and that it is lower case.</small>
+        </div>
+        <small class="para">Means required field *</small>
+          <button type="submit" class="cta get-cv" onclick="validation()" id="submitBtn">Start collaboration</button>
         </form>
       </div>
     </section>
