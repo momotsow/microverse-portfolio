@@ -47,6 +47,10 @@ function validation() {
       event.preventDefault();
       alert.innerHTML = "* Make sure you fill your name. Form not sent.";
       document.getElementById("name").classList.add("invalid");
+    } else if (message.length > 50) {
+      event.preventDefault();
+      alert.innerHTML = "* exceeded maximum number of characters (50). Form not sent";
+      document.getElementById("message").classList.add("invalid");
     } else {
       form.submit();
     }
