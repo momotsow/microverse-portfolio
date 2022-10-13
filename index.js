@@ -61,22 +61,21 @@ validation();
 
 // local storage
 const inputs = document.querySelectorAll("input[type='text'], input[type='email'], textarea");
-const inputName = document.getElementById('name')
-const inputEmail = document.getElementById('email')
-const inputMessage = document.getElementById('message')
+const inputName = document.getElementById('name');
+const inputEmail = document.getElementById('email');
+const inputMessage = document.getElementById('message');
 const dataObj = {
 
 };
 inputName.addEventListener('input', (event) => {
   dataObj.name = event.target.value;
-})
+});
 inputEmail.addEventListener('input', (event) => {
   dataObj.email = event.target.value;
-})
+});
 inputMessage.addEventListener('input', (event) => {
   dataObj.message = event.target.value;
-})
-const form = document.getElementById('form');
+});
 
 Array.prototype.forEach.call(inputs, (el) => {
   const dataStored = JSON.parse(localStorage.getItem('dataObj'));
@@ -84,8 +83,6 @@ Array.prototype.forEach.call(inputs, (el) => {
   if (dataStored) el.value = dataStored[el.name];
 
   el.addEventListener('blur', () => {
-
-    localStorage.setItem("dataObj", JSON.stringify(dataObj));
-
+    localStorage.setItem('dataObj', JSON.stringify(dataObj));
   });
 });
