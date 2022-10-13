@@ -41,11 +41,13 @@ function validation() {
       document.getElementById('email').classList.add('invalid');
     } else if (message.length < 5 || message === undefined) {
       event.preventDefault();
-      alert.innerHTML = '* Text area should have at least 5 characters. form not sent.';
-      document.getElementsByTagName('input').classList.add('invalid');
-    } 
-
-     else {
+      alert.innerHTML ="* Text area should have at least 5 characters. form not sent.";
+      document.getElementsByTagName("input").classList.add("invalid");
+    } else if (name.length < 1 || name === undefined) {
+      event.preventDefault();
+      alert.innerHTML = "* Make sure you fill your name. Form not sent.";
+      document.getElementById("name").classList.add("invalid");
+    } else {
       form.submit();
     }
   });
