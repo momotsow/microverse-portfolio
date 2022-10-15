@@ -1,4 +1,4 @@
-const nav = document.querySelector('.nav');
+const nav = document.getElementById('.nav');
 const navToggle = document.querySelector('.mobile-menu');
 const closeBtn = document.querySelector('.close');
 
@@ -83,6 +83,6 @@ Array.prototype.forEach.call(inputs, (el) => {
   if (dataStored) el.value = dataStored[el.name];
 
   el.addEventListener('blur', () => {
-    localStorage.setItem('dataObj', JSON.stringify(dataObj));
+    localStorage.setItem('dataObj', dataObj);
   });
 });
